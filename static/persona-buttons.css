@@ -10,7 +10,7 @@
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.5), 0 0 2px rgba(0,0,0,0.2);
 
-  background-color: #297dc3;
+  background: #297dc3;
   background: -moz-linear-gradient(top, #43a6e2, #287cc2);
   background: -ms-linear-gradient(top, #43a6e2, #287cc2);
   background: -o-linear-gradient(top, #43a6e2, #287cc2);
@@ -31,7 +31,7 @@
 }
 
 .persona-button:hover{
-  background-color: #21669f;
+  background: #21669f;
   background: -moz-linear-gradient(top, #3788b9, #21669f);
   background: -ms-linear-gradient(top, #3788b9, #21669f);
   background: -o-linear-gradient(top, #3788b9, #21669f);
@@ -94,7 +94,7 @@
   left: 0;
   top: 0;
   z-index: 1;
-  background-color: #42a9dd;
+  background: #42a9dd;
   background: -moz-linear-gradient(top, #50b8e8, #3095ce);
   background: -ms-linear-gradient(top, #50b8e8, #3095ce);
   background: -o-linear-gradient(top, #50b8e8, #3095ce);
@@ -120,7 +120,7 @@ Laurent5 Laurent5@users.noreply.github.com
   top: 0;
   z-index: 1;
 
-  background-color: #42a9dd;
+  background: #42a9dd;
   background: -moz-linear-gradient(top, #50b8e8, #3095ce);
   background: -ms-linear-gradient(top, #50b8e8, #3095ce);
   background: -o-linear-gradient(top, #50b8e8, #3095ce);
@@ -198,7 +198,7 @@ Laurent5 Laurent5@users.noreply.github.com
 * Dark button
 * ===================================================== */
 .persona-button.dark{
-  background-color: #3c3c3c;
+  background: #3c3c3c;
   background: -moz-linear-gradient(top, #606060, #3c3c3c);
   background: -ms-linear-gradient(top, #606060, #3c3c3c);
   background: -o-linear-gradient(top, #606060, #3c3c3c);
@@ -206,7 +206,7 @@ Laurent5 Laurent5@users.noreply.github.com
   background: linear-gradient(#606060, #3c3c3c); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.dark:hover{
-  background-color: #2d2d2d;
+  background: #2d2d2d;
   background: -moz-linear-gradient(top, #484848, #2d2d2d);
   background: -ms-linear-gradient(top, #484848, #2d2d2d);
   background: -o-linear-gradient(top, #484848, #2d2d2d);
@@ -214,7 +214,7 @@ Laurent5 Laurent5@users.noreply.github.com
   background: linear-gradient(#484848, #2d2d2d); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.dark span:before{ /* Icon BG */
-  background-color: #d34f2d;
+  background: #d34f2d;
   background: -moz-linear-gradient(top, #ebac45, #d34f2d);
   background: -ms-linear-gradient(top, #ebac45, #d34f2d);
   background: -o-linear-gradient(top, #ebac45, #d34f2d);
@@ -222,7 +222,7 @@ Laurent5 Laurent5@users.noreply.github.com
   background: linear-gradient(#ebac45, #d34f2d); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.dark:before{ /* Triangle */
-  background-color: #d34f2d;
+  background: #d34f2d;
   background: -moz-linear-gradient(-45deg, #ebac45, #d34f2d);
   background: -ms-linear-gradient(-45deg, #ebac45, #d34f2d);
   background: -o-linear-gradient(-45deg, #ebac45, #d34f2d);
@@ -234,7 +234,7 @@ Laurent5 Laurent5@users.noreply.github.com
 * Orange button
 * ===================================================== */
 .persona-button.orange{
-  background-color: #ee731a;
+  background: #ee731a;
   background: -moz-linear-gradient(top, #ee731a, #d03116);
   background: -ms-linear-gradient(top, #ee731a, #d03116);
   background: -o-linear-gradient(top, #ee731a, #d03116);
@@ -242,7 +242,7 @@ Laurent5 Laurent5@users.noreply.github.com
   background: linear-gradient(#ee731a, #d03116); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.orange:hover{
-  background-color: #cb6216;
+  background: #cb6216;
   background: -moz-linear-gradient(top, #cb6216, #b12a13);
   background: -ms-linear-gradient(top, #cb6216, #b12a13);
   background: -o-linear-gradient(top, #cb6216, #b12a13);
@@ -250,7 +250,7 @@ Laurent5 Laurent5@users.noreply.github.com
   background: linear-gradient(#cb6216, #b12a13); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.orange span:before{ /* Icon BG */
-  background-color: #e84a21;
+  background: #e84a21;
   background: -moz-linear-gradient(top, #f7ad27, #e84a21);
   background: -ms-linear-gradient(top, #f7ad27, #e84a21);
   background: -o-linear-gradient(top, #f7ad27, #e84a21);
@@ -258,7 +258,7 @@ Laurent5 Laurent5@users.noreply.github.com
   background: linear-gradient(#f7ad27, #e84a21); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.orange:before{ /* Triangle */
-  background-color: #e84a21;
+  background: #e84a21;
   background: -moz-linear-gradient(-45deg, #f7ad27, #e84a21);
   background: -ms-linear-gradient(-45deg, #f7ad27, #e84a21);
   background: -o-linear-gradient(-45deg, #f7ad27, #e84a21);
