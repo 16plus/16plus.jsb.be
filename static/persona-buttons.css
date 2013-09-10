@@ -10,7 +10,7 @@
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.5), 0 0 2px rgba(0,0,0,0.2);
 
-  background: #297dc3;
+  background-color: #297dc3;
   background: -moz-linear-gradient(top, #43a6e2, #287cc2);
   background: -ms-linear-gradient(top, #43a6e2, #287cc2);
   background: -o-linear-gradient(top, #43a6e2, #287cc2);
@@ -31,7 +31,7 @@
 }
 
 .persona-button:hover{
-  background: #21669f;
+  background-color: #21669f;
   background: -moz-linear-gradient(top, #3788b9, #21669f);
   background: -ms-linear-gradient(top, #3788b9, #21669f);
   background: -o-linear-gradient(top, #3788b9, #21669f);
@@ -71,7 +71,89 @@
 .persona-button span:before{
   content: '';
   display: block;
+  height: 100%;57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+.persona-button span:after{
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAPCAYAAAA/I0V3AAAA4klEQVR42o2RWaqEMBRE3YaCiDjPwQGcd9CrysLv4wTyoLFD90dxqbp1EgdPRB7Kskznea6Zn/aPoKoqUUrJOI5m4l2QBfSyLHKep1zXZSae3An1fS/7vst931bGkzuhaZrsLVbGkzuheZ7lOI6HyJ2QUkqv6yrbtv0LT+6E7G0UrfBfP3lZlpoXH4ZBmHgn5Pv+KwxDfqp0XQdgJp6c/RsUBIGOokiSJDE/s21bACbe5Ozp0TdAHMdSFIXUdS1N01C2wpObPT36HifwCJzI0iX29Oh7XP0E3CB9L01TzM+i/wePv4ZE5RtAngAAAABJRU5ErkJggg==) 10px center no-repeat;
+  content: '';
+  display: block;
+  width: 31px;
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+  top: 0;
+  z-index: 10;
+}
+/* Icon background */
+.persona-button span:before{
+  content: '';
+  display: block;
   height: 100%;
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #42a9dd;
+  background: -moz-linear-gradient(top, #50b8e8, #3095ce);
+  background: -ms-linear-gradient(top, #50b8e8, #3095ce);
+  background: -o-linear-gradient(top, #50b8e8, #3095ce);
+  background: -webkit-linear-gradient(top, #50b8e8, #3095ce);
+  background: linear-gradient(#50b8e8, #3095ce); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
+  -moz-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+/* Triangle */
+.persona-button:before{
+  background: #42a9dd;
+Commit summary: Extended description: (optional)
+Laurent5 Laurent5@users.noreply.github.com
+
   width: 20px;
 
   position: absolute;
@@ -80,7 +162,7 @@
   top: 0;
   z-index: 1;
 
-  background: #42a9dd;
+  background-color: #42a9dd;
   background: -moz-linear-gradient(top, #50b8e8, #3095ce);
   background: -ms-linear-gradient(top, #50b8e8, #3095ce);
   background: -o-linear-gradient(top, #50b8e8, #3095ce);
@@ -158,7 +240,7 @@
 * Dark button
 * ===================================================== */
 .persona-button.dark{
-  background: #3c3c3c;
+  background-color: #3c3c3c;
   background: -moz-linear-gradient(top, #606060, #3c3c3c);
   background: -ms-linear-gradient(top, #606060, #3c3c3c);
   background: -o-linear-gradient(top, #606060, #3c3c3c);
@@ -166,7 +248,7 @@
   background: linear-gradient(#606060, #3c3c3c); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.dark:hover{
-  background: #2d2d2d;
+  background-color: #2d2d2d;
   background: -moz-linear-gradient(top, #484848, #2d2d2d);
   background: -ms-linear-gradient(top, #484848, #2d2d2d);
   background: -o-linear-gradient(top, #484848, #2d2d2d);
@@ -174,7 +256,7 @@
   background: linear-gradient(#484848, #2d2d2d); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.dark span:before{ /* Icon BG */
-  background: #d34f2d;
+  background-color: #d34f2d;
   background: -moz-linear-gradient(top, #ebac45, #d34f2d);
   background: -ms-linear-gradient(top, #ebac45, #d34f2d);
   background: -o-linear-gradient(top, #ebac45, #d34f2d);
@@ -182,7 +264,7 @@
   background: linear-gradient(#ebac45, #d34f2d); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.dark:before{ /* Triangle */
-  background: #d34f2d;
+  background-color: #d34f2d;
   background: -moz-linear-gradient(-45deg, #ebac45, #d34f2d);
   background: -ms-linear-gradient(-45deg, #ebac45, #d34f2d);
   background: -o-linear-gradient(-45deg, #ebac45, #d34f2d);
@@ -194,7 +276,7 @@
 * Orange button
 * ===================================================== */
 .persona-button.orange{
-  background: #ee731a;
+  background-color: #ee731a;
   background: -moz-linear-gradient(top, #ee731a, #d03116);
   background: -ms-linear-gradient(top, #ee731a, #d03116);
   background: -o-linear-gradient(top, #ee731a, #d03116);
@@ -202,7 +284,7 @@
   background: linear-gradient(#ee731a, #d03116); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.orange:hover{
-  background: #cb6216;
+  background-color: #cb6216;
   background: -moz-linear-gradient(top, #cb6216, #b12a13);
   background: -ms-linear-gradient(top, #cb6216, #b12a13);
   background: -o-linear-gradient(top, #cb6216, #b12a13);
@@ -210,7 +292,7 @@
   background: linear-gradient(#cb6216, #b12a13); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.orange span:before{ /* Icon BG */
-  background: #e84a21;
+  background-color: #e84a21;
   background: -moz-linear-gradient(top, #f7ad27, #e84a21);
   background: -ms-linear-gradient(top, #f7ad27, #e84a21);
   background: -o-linear-gradient(top, #f7ad27, #e84a21);
@@ -218,7 +300,7 @@
   background: linear-gradient(#f7ad27, #e84a21); /* le mot-clé top n'existe pas, c'est "to bottom" qui est par defaut - Laurent5*/
 }
 .persona-button.orange:before{ /* Triangle */
-  background: #e84a21;
+  background-color: #e84a21;
   background: -moz-linear-gradient(-45deg, #f7ad27, #e84a21);
   background: -ms-linear-gradient(-45deg, #f7ad27, #e84a21);
   background: -o-linear-gradient(-45deg, #f7ad27, #e84a21);
