@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(/static/Ubuntu-Font-Bold.woff) format('woff');
-}
+}*/
 
 body {
     background-color: #7BAF04;
