@@ -34,6 +34,7 @@ img.logo {
     float: right;
     
     <!--[if IE]>
+    height: 15px;
       margin-right: 20px;
     <![endif]--> 
     
