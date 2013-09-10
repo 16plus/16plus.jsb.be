@@ -71,49 +71,7 @@
 .persona-button span:before{
   content: '';
   display: block;
-  height: 100%;57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
+  height: 100%;
 .persona-button span:after{
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAPCAYAAAA/I0V3AAAA4klEQVR42o2RWaqEMBRE3YaCiDjPwQGcd9CrysLv4wTyoLFD90dxqbp1EgdPRB7Kskznea6Zn/aPoKoqUUrJOI5m4l2QBfSyLHKep1zXZSae3An1fS/7vst931bGkzuhaZrsLVbGkzuheZ7lOI6HyJ2QUkqv6yrbtv0LT+6E7G0UrfBfP3lZlpoXH4ZBmHgn5Pv+KwxDfqp0XQdgJp6c/RsUBIGOokiSJDE/s21bACbe5Ozp0TdAHMdSFIXUdS1N01C2wpObPT36HifwCJzI0iX29Oh7XP0E3CB9L01TzM+i/wePv4ZE5RtAngAAAABJRU5ErkJggg==) 10px center no-repeat;
   content: '';
