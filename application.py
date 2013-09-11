@@ -32,6 +32,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 import cherrypy
 import requests
 
+from cherrypy.lib.static import serve_file
+
 # Local project imports:
 import config
 from profile import Profile, page as profile_page
@@ -40,6 +42,8 @@ cherrypy.config.update({'tools.sessions.on': True,
                         'server.socket_host': '0.0.0.0',
                         'server.socket_port': 1616,
                         })
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
  
 def signed_in():
     'Returns True if the user is connected.'
@@ -125,7 +129,8 @@ class Root(object):
 
     @cherrypy.expose
     def static(self, filename):
-        return open('static/' + filename)
+        return serve_file(os.path.join(current_dir, 'static', filename))
+                        #content_type='application/xml')
 
 
 class Persona(object):
