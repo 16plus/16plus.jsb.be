@@ -117,14 +117,17 @@ class Root(object):
     @cherrypy.expose
     def update(self):
         ''' Pulls and checkouts the 'latest' repository. Used to update static files. '''
-        here = os.getcwd()
-        os.chdir(config.repository_latest)
-        yield u'Telechargement...\n'
-        os.system('git pull')
-        yield u'Mise en place...\n'
-        os.system('git checkout .')
-        os.chdir(here)
-        yield u'Nouvelle version active.\n'
+        if not config.repository_latest:
+            yield u'Module inactif'
+        else:
+            here = os.getcwd()
+            os.chdir(config.repository_latest)
+            yield u'Telechargement...\n'
+            os.system('git pull')
+            yield u'Mise en place...\n'
+            os.system('git checkout .')
+            os.chdir(here)
+            yield u'Nouvelle version active.\n'
     
 
     @cherrypy.expose
