@@ -13,7 +13,7 @@ import platform
 if platform.node() == 'pyweb':
     hostname = '16plus.jsb.be'
     DATA_PATH = os.path.expanduser('~') + '/apps/16plus.jsb.be-stable/data'
-    repository_latest = os.path.expanduser('~') + '/app/16plus.jsb.be-latest'
+    repository_latest = os.path.expanduser('~') + '/apps/16plus.jsb.be-latest'
 else:
     hostname = 'localhost:1616'
     if platform.node() == 'lithium':
